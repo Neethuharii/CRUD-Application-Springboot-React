@@ -15,77 +15,86 @@ This project is a simple CRUD (Create, Read, Update, Delete) application built w
 * Technologies Used
 * Contributing
 * License
+
 =>Getting Started
 
-Prerequisites
-Before you begin, ensure you have met the following requirements:
 
-Node.js and npm installed.
-Java and Maven for Spring Boot.
-A compatible database (e.g., MySQL, PostgreSQL) with schema created.
-Installation
-Clone the repository:
-bash
-Copy code
+* Node.js and npm installed.
+* Java and Maven for Spring Boot.
+* A compatible database (e.g., MySQL, PostgreSQL) with schema created.
+  
+=> Installation
+ 
+-> Clone the repository:
+
 git clone https://github.com/your-username/your-crud-app.git
-Install frontend dependencies:
-bash
-Copy code
+
+-> Install frontend dependencies:
+
 cd client
 npm install
-Configure the backend:
-Create a application.properties file in the src/main/resources directory of the Spring Boot project.
-Configure your database connection in application.properties. For example:
-properties
-Copy code
+
+-> Configure the backend:
+
+* Create a application.properties file in the src/main/resources directory of the Spring Boot project.
+* Configure your database connection in application.properties. For example:
+
+-> properties
+
 spring.datasource.url=jdbc:mysql://localhost:3306/your_database
 spring.datasource.username=your_username
 spring.datasource.password=your_password
+
 Specify other configurations like server port and logging as needed.
-Build the Spring Boot project:
-bash
-Copy code
+
+-> Build the Spring Boot project:
+
 cd server
 mvn clean install
 Running the Application
 
-Start the Spring Boot server:
-bash
-Copy code
+-> Start the Spring Boot server:
+
 cd server
 mvn spring-boot:run
+
 The backend server should now be running on http://localhost:8080.
-Start the React frontend:
-bash
-Copy code
+
+-> Start the React frontend:
+
 cd client
 npm start
+
 The React development server should start and open the application in your default web browser at http://localhost:3000.
-Usage
+
+=> Usage
 
 Access the CRUD application through the web browser.
 Perform CRUD operations on the items.
 Create, read, update, and delete items in the database.
-Project Structure
 
-The project is structured as follows:
+=> Project Structure
+
+-> The project is structured as follows:
 
 client/: Contains the React frontend code.
 server/: Contains the Spring Boot backend code.
 database/: Contains database schema and migration scripts.
-Technologies Used
 
-React
-Spring Boot
-Java
-MySQL (or your preferred database)
-npm
-Maven
-Contributing
+=> Technologies Used
+
+* React
+* Spring Boot
+* Java
+* MySQL (or your preferred database)
+* npm
+* Maven
+  
+=> Contributing
 
 Feel free to contribute to this project by opening issues or pull requests. Your contributions are welcome!
 
-License
+=> License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
