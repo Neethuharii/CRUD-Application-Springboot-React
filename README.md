@@ -4,18 +4,18 @@ CRUD Application using React and Spring Boot
 
 This project is a simple CRUD (Create, Read, Update, Delete) application built with React for the frontend and Spring Boot for the backend. It allows you to manage a collection of items.
 
-Table of Contents
+=> Table of Contents
 
-Getting Started
-Prerequisites
-Installation
-Running the Application
-Usage
-Project Structure
-Technologies Used
-Contributing
-License
-Getting Started
+* Getting Started
+* Prerequisites
+* Installation
+* Running the Application
+* Usage
+* Project Structure
+* Technologies Used
+* Contributing
+* License
+=>Getting Started
 
 Prerequisites
 Before you begin, ensure you have met the following requirements:
