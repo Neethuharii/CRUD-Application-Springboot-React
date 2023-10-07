@@ -1,8 +1,8 @@
 package com.crud.crud.application.controller;
 
-import com.crud.crup.application.exception.UserNotFoundException;
-import com.crud.crup.application.model.User;
-import com.crud.crup.application.repository.UserRepository;
+import com.crud.crud.application.exception.UserNotFoundException;
+import com.crud.crud.application.model.User;
+import com.crud.crud.application.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
